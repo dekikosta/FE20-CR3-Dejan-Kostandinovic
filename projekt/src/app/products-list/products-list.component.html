@@ -1,0 +1,19 @@
+<div class="logo">
+    <h1>Our speciallies</h1>
+</div>
+
+<div *ngFor="let product of products; index as i">
+    <div class="hallo">
+    <h3>{{product.name}}</h3>
+    <p>{{product.price}} €</p>
+    <div class="btn">
+    <a routerLink="/products/{{i}}" class="btn btn-success">Detalis</a>
+    </div>
+    </div>
+    
+    <div class="picture">
+    <img src="{{product.img}}">
+    </div>
+</div>
+
+

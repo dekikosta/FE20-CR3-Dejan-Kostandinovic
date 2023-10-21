@@ -1,0 +1,17 @@
+<div class="logo">
+<h2>Product-detalis</h2>
+</div>
+<div *ngIf="product">
+    <div class="hallo">
+    <h3>{{product.name}}</h3>
+    <p>{{product.price}} €</p>
+    <p>{{product.description}}</p>
+</div>
+    <div class="btn">  
+    <button (click)="addToCart()" class="btn btn-success">Add to cart</button>
+    </div>
+    <div class="picture">
+    <img src="{{product.img}}">
+    </div>
+    
+</div>

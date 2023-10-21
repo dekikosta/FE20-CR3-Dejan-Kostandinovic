@@ -1,0 +1,51 @@
+.hero{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(119, 119, 116);
+}
+.hero h1{
+    color: rgb(231, 193, 79);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+
+}
+.hero p{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 5rem;   
+}
+.my-button1{
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: 7rem;
+    border-radius: 4px;
+    background-color: rgb(32, 120, 44);
+    border:none;
+    color: white;
+    font-weight: bold;
+    width: 96px;
+    height: 29px;
+    
+}
+.my-button2{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    border-radius: 4px;
+    background-color: rgb(32, 120, 44);
+    border:none;
+    color: white;
+    font-weight: bold;
+    width: 108px;
+    height: 29.5px;
+}

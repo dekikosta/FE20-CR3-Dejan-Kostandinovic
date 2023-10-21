@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 5rem;
+}
+.hallo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.hallo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

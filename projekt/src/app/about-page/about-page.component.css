@@ -1,0 +1,66 @@
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.container h5{
+    font-weight: bold;
+}
+.under-container{
+    height: 40vh;
+    background-color: rgb(245, 242, 240);
+    margin-right: 25px;
+    margin-left: 25px;
+    
+   
+}
+.under-container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.under-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Taviraj', serif;   
+    margin-top: 3rem;
+}
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.para ul h6{
+    font-weight: bold;
+}
+.specials h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+.specials p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Taviraj', serif;  
+}
+.btn-pills{
+margin-bottom: 5rem;
+margin-top: 6rem;
+margin-left: 10rem;
+}
